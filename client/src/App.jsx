@@ -9,9 +9,16 @@ export default function App() {
           <h4 className="text-4xl font-bold tracking-tight text-white sm:text-3xl">
             A Rust based game engine.
           </h4>
+          <div className="relative isolate pt-3">
+            <a href="https://github.com/Shaurya0108/R-Engine" target="_blank" rel="noopener noreferrer">
+              <button className="text-4xl font-bold tracking-tight text-white sm:text-3xl underline-on-hover">
+                Github
+              </button>
+            </a>
+          </div>
         </div>
         <button
-          className="absolute btn btn-ghost top-14 right-14 transform -rotate-90 text-white text-4xl tracking-tight"
+          className="absolute btn btn-ghost top-14 right-14 transform -rotate-90 text-white text-4xl tracking-tight underline-on-hover"
           style={{ transformOrigin: "top right" }}
         >
           Store
