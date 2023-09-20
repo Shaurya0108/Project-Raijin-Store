@@ -10,12 +10,12 @@ export default function App() {
             A Rust based game engine.
           </h4>
         </div>
-        <div
-          className="absolute top-14 right-14 transform -rotate-90 text-white text-4xl tracking-tight"
+        <button
+          className="absolute btn btn-ghost top-14 right-14 transform -rotate-90 text-white text-4xl tracking-tight"
           style={{ transformOrigin: "top right" }}
         >
           Store
-        </div>
+        </button>
       </div>
     </html>
   )
